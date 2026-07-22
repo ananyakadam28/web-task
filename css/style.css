@@ -1146,3 +1146,152 @@ p { margin: 0; line-height: 1.6; color: var(--color-body); }
 
 }
 }
+
+/* ==========================================
+   STORIES RESPONSIVE
+========================================== */
+
+@media (max-width:768px){
+
+    .stories{
+        padding:70px 0;
+    }
+
+    .stories-grid{
+        display:flex;
+        flex-direction:column;
+        gap:24px;
+    }
+
+    .story-feature{
+        position:relative;
+    }
+
+    .story-feature-img img{
+        height:260px;
+        object-fit:cover;
+        border-radius:20px;
+    }
+
+    .story-feature h3{
+        left:20px;
+        bottom:70px;
+        right:70px;
+        font-size:24px;
+        line-height:1.2;
+    }
+
+    .story-feature>p{
+        left:20px;
+        right:75px;
+        bottom:20px;
+        font-size:14px;
+        line-height:1.5;
+    }
+
+    .play-btn{
+        width:48px;
+        height:48px;
+        right:16px;
+        bottom:16px;
+    }
+
+    .story-list{
+        gap:16px;
+    }
+
+    .story-item{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        gap:14px;
+        padding:14px;
+    }
+
+    .story-item-img{
+        width:110px;
+        height:90px;
+        flex-shrink:0;
+    }
+
+    .story-item-text h4{
+        font-size:18px;
+        margin-bottom:6px;
+    }
+
+    .story-item-text p{
+        font-size:13px;
+        line-height:1.5;
+    }
+
+}
+
+.story-feature h3{
+    font-size:1.5rem;
+    font-weight:700;
+}
+
+.story-item h4{
+    font-size:1rem;
+}
+
+/* ===========================
+   Story section mobile fix
+=========================== */
+@media (max-width: 768px) {
+
+    .story-feature {
+        position: relative;
+    }
+
+    .story-feature-img img {
+        height: 280px;
+        object-fit: cover;
+    }
+
+    .story-feature h3 {
+        position: absolute;
+        left: 16px;
+        right: 70px;      /* Leave space for play button */
+        bottom: 82px;
+
+        font-size: 18px !important;
+        line-height: 1.25;
+        font-weight: 700;
+        color: #fff;
+        margin: 0;
+        z-index: 2;
+    }
+
+    .story-feature > p {
+        position: absolute;
+        left: 16px;
+        right: 70px;
+        bottom: 18px;
+
+        font-size: 13px;
+        line-height: 1.45;
+        color: rgba(255,255,255,.95);
+        margin: 0;
+        z-index: 2;
+    }
+
+    .play-btn {
+        width: 46px;
+        height: 46px;
+        right: 16px;
+        bottom: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .hero{
+        margin-bottom: 40px;
+    }
+
+    .featured{
+        padding-top: 0;
+    }
+
+}
