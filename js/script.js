@@ -1,6 +1,4 @@
-// ==========================================================
 // TALKING TRAVEL — Interactions
-// ==========================================================
 
 document.addEventListener('DOMContentLoaded', () => {
 

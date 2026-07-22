@@ -1,7 +1,3 @@
-/* ==========================================================
-   TALKING TRAVEL â€” Stylesheet
-   ========================================================== */
-
 :root {
   --color-primary: #6c4ce0;
   --color-primary-dark: #5b3cd0;
@@ -134,9 +130,8 @@ p { margin: 0; line-height: 1.6; color: var(--color-body); }
   color: var(--color-white);
 }
 
-/* ==========================================================
-   HEADER
-   ========================================================== */
+/* HEADER */
+
 .site-header {
   position: sticky;
   top: 0;
@@ -240,9 +235,8 @@ p { margin: 0; line-height: 1.6; color: var(--color-body); }
 .hamburger.open span:nth-child(2) { opacity: 0; }
 .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-/* ==========================================================
-   HERO
-   ========================================================== */
+/* HERO */
+
 .hero {
   position: relative;
   min-height: 480px;
@@ -299,9 +293,7 @@ p { margin: 0; line-height: 1.6; color: var(--color-body); }
   flex-wrap: wrap;
 }
 
-/* ==========================================================
-   FEATURED DESTINATION
-   ========================================================== */
+/* FEATURED DESTINATION */
 .featured {
   display: flex;
   grid-template-columns: 1fr 1fr;
@@ -329,9 +321,7 @@ p { margin: 0; line-height: 1.6; color: var(--color-body); }
   margin-bottom: 28px;
 }
 
-/* ==========================================================
-   DISCOVER GRID
-   ========================================================== */
+/* DISCOVER GRID */
 .discover {
   padding: 20px 0 100px;
 }
@@ -394,9 +384,7 @@ p { margin: 0; line-height: 1.6; color: var(--color-body); }
     z-index:0;
 }
 
-/* ==========================================================
-   JOIN SECTION
-   ========================================================== */
+/*  JOIN SECTION */
 .join-section {
   position: relative;
   background: var(--color-bg-soft);
@@ -552,9 +540,7 @@ p { margin: 0; line-height: 1.6; color: var(--color-body); }
   min-height: 1.2em;
 }
 
-/* ==========================================================
-   RECENT STORIES
-   ========================================================== */
+/* RECENT STORIES */
 .stories { padding: 100px 0 110px; }
 
 .stories-grid {
@@ -666,9 +652,7 @@ p { margin: 0; line-height: 1.6; color: var(--color-body); }
 
 .story-item-text a:hover { text-decoration: underline; }
 
-/* ==========================================================
-   FOOTER
-   ========================================================== */
+/* FOOTER */
 .site-footer {
   background: white;
   padding: 28px 0;
@@ -742,9 +726,7 @@ p { margin: 0; line-height: 1.6; color: var(--color-body); }
 }
 
 
-/* ==========================================================
-   RESPONSIVE
-   ========================================================== */
+/* RESPONSIVE */
    
 /* ---------- Large Desktop (1600px+) ---------- */
 @media (min-width:1600px){
