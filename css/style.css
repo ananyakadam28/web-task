@@ -1122,4 +1122,27 @@ p { margin: 0; line-height: 1.6; color: var(--color-body); }
         flex-wrap:wrap;
     }
 
+
+    @media (max-width:768px){
+
+    .hero-actions{
+        display:flex;
+        flex-direction:row !important;
+        align-items:center;
+        justify-content:flex-start;
+        flex-wrap:wrap;
+        gap:14px;
+    }
+
+    .hero-actions > .btn.btn-primary{
+        width:fit-content !important;
+        min-width:unset !important;
+        max-width:none !important;
+        flex:none !important;
+
+        padding:12px 22px !important;
+        font-size:14px;
+    }
+
+}
 }
