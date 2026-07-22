@@ -1087,3 +1087,150 @@ p { margin: 0; line-height: 1.6; color: var(--color-body); }
     }
 
 }
+
+/* MOBILE FIXES */
+@media (max-width: 768px) {
+
+    .container{
+        padding:0 18px;
+    }
+
+    /* HEADER */
+
+    .site-header{
+        height:72px;
+    }
+
+    .header-inner{
+        height:72px;
+    }
+
+    .logo-main{
+        font-size:1.3rem;
+    }
+
+    .header-actions{
+        gap:10px;
+    }
+
+    .icon-btn{
+        width:34px;
+        height:34px;
+    }
+
+    /* HERO */
+
+    .hero{
+        min-height:520px;
+        align-items:flex-start;
+    }
+
+    .hero-inner{
+        padding-top:60px;
+        padding-bottom:80px;
+    }
+
+    .hero-text{
+        max-width:100%;
+    }
+
+    .hero-text h1{
+        font-size:3rem;
+        line-height:1.05;
+        margin-bottom:18px;
+    }
+
+    .hero-text p{
+        font-size:1rem;
+        line-height:1.6;
+        max-width:100%;
+        margin-bottom:28px;
+    }
+
+    .hero-actions{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:18px;
+    }
+
+    .btn-primary{
+        width:100%;
+        justify-content:center;
+        padding:16px;
+    }
+
+    .btn-play{
+        font-size:18px;
+    }
+
+    /* Fade background more on mobile */
+
+    .hero-overlay{
+        background:linear-gradient(
+            90deg,
+            rgba(255,255,255,.96) 0%,
+            rgba(255,255,255,.93) 45%,
+            rgba(255,255,255,.75) 70%,
+            rgba(255,255,255,.45) 100%
+        );
+    }
+
+    .hero-bg img{
+        object-position:72% center;
+    }
+
+    /* FEATURED */
+
+    .featured{
+        padding:60px 0;
+        gap:30px;
+    }
+
+    .featured-media img{
+        width:100%;
+        height:auto;
+    }
+
+    .featured-content{
+        text-align:center;
+    }
+
+    .featured-content p{
+        margin:20px auto;
+    }
+
+    .watch-link{
+        justify-content:center;
+    }
+
+}
+
+@media (max-width:390px){
+
+    .hero{
+        min-height:480px;
+    }
+
+    .hero-inner{
+        padding-top:45px;
+        padding-bottom:60px;
+    }
+
+    .hero-text h1{
+        font-size:2.5rem;
+    }
+
+    .hero-text p{
+        font-size:.95rem;
+    }
+
+    .btn-primary{
+        font-size:16px;
+    }
+
+    .play-circle{
+        width:44px;
+        height:44px;
+    }
+
+}
